@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: 0;
+}
+
+.lere {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: 50px;
+}
+
+.icons {
+    display: flex;
+    list-style:none;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #fff;
+}
+
+/* why is my class for li not working */
+
+/* li > a {
+    text-decoration: none;
+    margin-right: 40px;
+    color:#fff
+} */
+
+.net {
+    margin-left: 80px;
+    font-weight: 200px;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid white;
+    padding: 3px;
+    
+
+}
+
+body {
+    background-color: #181719;
+}
+
+li > hr {
+    width: 40px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    margin-right: 60px;
+    
+}
+.pro {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+
+}
+
+.check {
+    color: #fff;
+    width: 365px;
+    margin-top:200px ;
+}
+
+.on {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.air {
+    width: 200px;
+}
+
+.off {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.wallpaper {
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.man {
+    width: 50px;
+    height: auto;
+    border-radius: 25px;
+    margin-right: 0;
+}
+
+.view {
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    padding: 10px;
+    right: 220px;
+    bottom: -70px;
+}
+
+.owner {
+    color: #fff;
+}
+
+.stock {
+    color: #828282;
+}
+.woman {
+    font-family: lora;
+    font-weight: 700;
+    color: #fff;
+}
+.soup, .dev {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.dev {
+    margin-left: 0;
+}
+
+footer>p {
+    font-family: Montserrat;
+    color: #a9a9a9;
+    text-align:center;
+}
+
+
+.saba {
+     display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .icons{
+        display:none;
+    }   
+    .saba {
+        display: block;
+        width: 40px;
+        margin-left: 120px;
+    }
+    .lere {
+        display: inline-block;
+    }
+    .pro {
+        flex-direction: column;
+        margin-top: 0;
+        padding:0;
+        margin-left:50px;
+        width:400px;
+    }
+    .check {
+        margin-top: 0;
+        font-size: 50px;
+    }
+
+    .on, .off {
+        font-size: 35px;
+        width: 350px;
+    }
+    .soap {
+        height: auto;
+        width: 400px;
+    }
+    .view {
+        position: absolute;
+        right: -65px;
+        bottom: -250px;
+        
+    }
+    footer>p{
+        font-size:17px;
+        margin-left:80px;
+        width:350px;
+    }
+
+    footer {   
+    margin-top:100px;
+    padding-bottom:50px;
+    }
+    .top-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    .net {
+        width: 250px;
+        font-size: 24px;
+        margin-left: 0;
+        text-align: center;
+        padding: 12px;
+        }
+
+}
+
+
